@@ -1,0 +1,21 @@
+============================================================
+羽毛球击球动作识别 - 训练结果
+============================================================
+
+测试集准确率: 0.4902 (49.02%)
+
+分类报告:
+                   precision    recall  f1-score   support
+
+   forehand_drive       0.43      0.62      0.51        29
+    forehand_lift       0.64      0.44      0.52        32
+forehand_net_shot       0.50      0.47      0.49        19
+   forehand_clear       0.50      0.50      0.50        22
+   backhand_drive       0.27      0.19      0.22        21
+backhand_net_shot       0.56      0.63      0.59        30
+
+         accuracy                           0.49       153
+        macro avg       0.48      0.48      0.47       153
+     weighted avg       0.49      0.49      0.48       153
+
+最佳模型保存路径: images/best_model.pth
